@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+     font-family: 'PT Sans', sans-serif;
+     text-decoration: none;
+
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=PT+Sans:wght@400;700&family=Poppins:wght@400;500;600;700;800&family=Sono:wght@500;600;700;800&display=swap');
+
+
+body{
+    background: #f1f1f1;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    color: #fff;
+    border-bottom: 2px solid #000 ;
+  
+}
+
+.titulo {
+    position: relative;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: 800;
+    user-select: none;
+    margin: 0 10px 0 0;
+}
+
+.fa-share{
+    font-size: 30px;
+    transform: rotatey(180deg);
+    margin: 15px 20px 0 0;
+    color: #000;
+}
+
+.producto {
+    display: inline-flex;
+}
+
+.imagen {
+    height: 660px;
+    width: 600px;
+    background-size: cover;
+    
+}
+
+.product-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #00bbf9;
+    width: 100%;
+}
+
+.product-info {
+    position: relative;
+    font-weight: 500;
+    font-size: 20px;
+    width: 500px;
+    border-left: 5px solid #474747;
+    padding: 50px;
+    width: 100%;
+}
+
+.producto-precio {
+    display: block;
+    width: 100px;
+    font-size: 50px;
+    font-size: 300;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #000;
+}
+
+/* .producto-precio::first-letter{
+    color: #00D000;
+} */
+
+.cantidad {
+    width: 30px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.input {
+    border-bottom: 2px solid #000;
+    padding: 10px;
+}
+
+.total {
+    display: flex;
+    justify-content: end;
+}
+
+.btn{
+    text-align: center;
+    margin: 70px 0 0 0 ;
+}
+
+.btn1{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #2ec4b6;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+    border: none;
+    border-radius: 5px;
+
+   
+}
+
+.btn1:hover{
+    transform: scale(1.1);
+}
+
+#ventanaEmergente {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 20px;
+    z-index: 100;
+    display: none;
+    text-align: center;
+  }
+
+  #ventanaEmergente button{
+    margin: 20px 50px 0 50px;
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #2ec4b6;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #ventanaEmergente #botonCancelar{
+    background-color: crimson;
+  }
+  
+  #fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    display: none;
+  }
+
+  
+

@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=PT+Sans:wght@400;700&family=Poppins:wght@400;500;600;700;800&family=Sono:wght@500;600;700;800&display=swap");
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #090a09;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  color: #ffffff;
+  border-bottom: 2px solid #000;
+}
+
+.titulo {
+  position: relative;
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-weight: 800;
+  user-select: none;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.title-1 {
+  text-align: center;
+  margin-top: 3rem;
+  letter-spacing: 0.5rem;
+  font-weight: 700;
+}
+
+.Galeria {
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  user-select: none;
+  margin: 50px 20px 20px 20px;
+}
+
+.producto {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.producto h3 {
+  margin-top: 2px;
+  margin-bottom: 5px;
+  color: #00bbf9;
+}
+
+.producto h2 {
+  margin-bottom: 2px;
+  color: #00bbf9;
+}
+
+.producto:hover {
+  cursor: pointer;
+}
+
+.precio {
+  margin-left: 0.5rem;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.imagenes {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 0.5rem;
+}
